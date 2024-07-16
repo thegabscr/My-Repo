@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 10px;
+}
+
+.navbar li:hover {
+    transform: scale(1.18);
+    cursor: pointer;
+    transition-duration: 0.18s;
+    font-weight: bolder;
+}
+
+.navbar a {
+    color: aliceblue !important;
+    text-decoration: none;
+}

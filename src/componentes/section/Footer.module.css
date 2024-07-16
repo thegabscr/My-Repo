@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.footer a {
+    color: aliceblue;
+}
+
+.footer li {
+    margin-left: 15px;
+}
+
+.footer li:hover {
+    transform: scale(1.18);
+    transition-duration: 0.18s;
+
+}
+
+.footer p {
+    margin: 25px;
+}

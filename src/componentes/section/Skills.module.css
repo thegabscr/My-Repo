@@ -1,0 +1,36 @@
+.skill {
+    /* background: rgba(1, 9, 28, 0.75); */
+    border-radius: 10px;
+    margin: 50px;
+    padding: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+}
+
+.skill img {
+    height: 140px;
+    margin: 25px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0.25, 0.25));
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.skill img:hover {
+    height: 150px;
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+    filter: brightness(120%) contrast(110%);
+    box-shadow: 0 0 25px rgba(59, 59, 59, 0.986)
+}
+
+.skill h1 {
+    font-size: 45px;
+}
+
+.skill p {
+    font-size: 20px;
+}
+
+.skill h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
